@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="6" errors="0" time="5.616">
+  <testsuite name="main.test.js" errors="0" failures="1" skipped="0" timestamp="2023-11-30T15:52:29" time="0.934" tests="1">
+    <testcase classname="App" name="deletes a task correctly" time="0.034">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;li&gt;Test Task 1&lt;button&gt;Delete&lt;/button&gt;&lt;/li&gt;
+    at _callee$ (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/main.test.js:39:40)
+    at tryCatch (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.&lt;anonymous&gt; (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="main1.test.js" errors="0" failures="1" skipped="0" timestamp="2023-11-30T15:52:29" time="1.92" tests="1">
+    <testcase classname="App" name="updates a task correctly" time="1.039">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Updated Task. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      style=&quot;max-width: 600px; margin: auto; padding: 20px; font-family: Arial, sans-serif;&quot;
+    &gt;
+      &lt;h1
+        style=&quot;text-align: center; color: rgb(51, 51, 51);&quot;
+      &gt;
+        Task Manager
+      &lt;/h1&gt;
+      &lt;div
+        style=&quot;margin-bottom: 20px; display: flex; justify-content: space-between;&quot;
+      &gt;
+        &lt;input
+          placeholder=&quot;Enter task description&quot;
+          style=&quot;flex: 1; margin-right: 10px; padding: 8px; border-radius: 3px; border: 1px solid #ccc;&quot;
+          type=&quot;text&quot;
+          value=&quot;&quot;
+        /&gt;
+        &lt;button
+          style=&quot;background: rgb(76, 175, 80); color: rgb(255, 255, 255); padding: 8px; border-radius: 3px; cursor: pointer;&quot;
+        &gt;
+          Add Task
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          Task 1
+          &lt;button&gt;
+            Update
+          &lt;/button&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      style=&quot;max-width: 600px; margin: auto; padding: 20px; font-family: Arial, sans-serif;&quot;
+    &gt;
+      &lt;h1
+        style=&quot;text-align: center; color: rgb(51, 51, 51);&quot;
+      &gt;
+        Task Manager
+      &lt;/h1&gt;
+      &lt;div
+        style=&quot;margin-bottom: 20px; display: flex; justify-content: space-between;&quot;
+      &gt;
+        &lt;input
+          placeholder=&quot;Enter task description&quot;
+          style=&quot;flex: 1; margin-right: 10px; padding: 8px; border-radius: 3px; border: 1px solid #ccc;&quot;
+          type=&quot;text&quot;
+          value=&quot;&quot;
+        /&gt;
+        &lt;button
+          style=&quot;background: rgb(76, 175, 80); color: rgb(255, 255, 255); padding: 8px; border-radius: 3px; cursor: pointer;&quot;
+        &gt;
+          Add Task
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          Task 1
+          &lt;button&gt;
+            Update
+          &lt;/button&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;Error: Unable to find an element with the text: Updated Task. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      style=&quot;max-width: 600px; margin: auto; padding: 20px; font-family: Arial, sans-serif;&quot;
+    &gt;
+      &lt;h1
+        style=&quot;text-align: center; color: rgb(51, 51, 51);&quot;
+      &gt;
+        Task Manager
+      &lt;/h1&gt;
+      &lt;div
+        style=&quot;margin-bottom: 20px; display: flex; justify-content: space-between;&quot;
+      &gt;
+        &lt;input
+          placeholder=&quot;Enter task description&quot;
+          style=&quot;flex: 1; margin-right: 10px; padding: 8px; border-radius: 3px; border: 1px solid #ccc;&quot;
+          type=&quot;text&quot;
+          value=&quot;&quot;
+        /&gt;
+        &lt;button
+          style=&quot;background: rgb(76, 175, 80); color: rgb(255, 255, 255); padding: 8px; border-radius: 3px; cursor: pointer;&quot;
+        &gt;
+          Add Task
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          Task 1
+          &lt;button&gt;
+            Update
+          &lt;/button&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at waitForWrapper (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/wait-for.js:166:27)
+    at findByText (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:86:33)
+    at _callee$ (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/main1.test.js:30:33)
+    at tryCatch (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:44:17)
+    at Generator.&lt;anonymous&gt; (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:125:22)
+    at Generator.next (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="sample.test.js" errors="0" failures="4" skipped="0" timestamp="2023-11-30T15:52:29" time="5.077" tests="4">
+    <testcase classname="AddTaskForm" name="allows the user to add a task" time="1.038">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: {&quot;description&quot;: &quot;Test Task&quot;, &quot;id&quot;: 1, &quot;isCompleted&quot;: false}
+
+Number of calls: 0
+
+Ignored nodes: comments, script, style
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+      &lt;div
+        style=&quot;margin-bottom: 20px; display: flex; justify-content: space-between;&quot;
+      &gt;
+        &lt;input
+          placeholder=&quot;Enter task description&quot;
+          style=&quot;flex: 1; margin-right: 10px; padding: 8px; border-radius: 3px; border: 1px solid #ccc;&quot;
+          type=&quot;text&quot;
+          value=&quot;Test Task&quot;
+        /&gt;
+        &lt;button
+          style=&quot;background: rgb(76, 175, 80); color: rgb(255, 255, 255); padding: 8px; border-radius: 3px; cursor: pointer;&quot;
+        &gt;
+          Add Task
+        &lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    at /home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/sample.test.js:28:31
+    at runWithExpensiveErrorDiagnosticsDisabled (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/config.js:47:12)
+    at checkCallback (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/wait-for.js:127:77)
+    at checkRealTimersCallback (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/wait-for.js:121:16)
+    at Timeout.task [as _onTimeout] (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)</failure>
+    </testcase>
+    <testcase classname="TodoList" name="allows the user to edit a task" time="1.054">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: {&quot;description&quot;: &quot;Updated Task 1&quot;, &quot;id&quot;: 1}
+
+Number of calls: 0
+
+Ignored nodes: comments, script, style
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+      &lt;div
+        style=&quot;padding: 20px; border: 1px solid #ccc; border-radius: 5px; max-width: 400px; margin: auto;&quot;
+      &gt;
+        &lt;h1
+          style=&quot;text-align: center;&quot;
+        &gt;
+          ToDo List
+        &lt;/h1&gt;
+        &lt;ul
+          style=&quot;list-style: none; padding: 0px;&quot;
+        &gt;
+          &lt;li
+            style=&quot;margin-bottom: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 3px; display: flex; justify-content: space-between; align-items: center;&quot;
+          &gt;
+            &lt;input
+              style=&quot;margin-right: 10px; flex: 1;&quot;
+              type=&quot;text&quot;
+              value=&quot;Updated Task 1&quot;
+            /&gt;
+            &lt;button
+              style=&quot;background: rgb(76, 175, 80); color: rgb(255, 255, 255); padding: 8px; border-radius: 3px; cursor: pointer;&quot;
+            &gt;
+              Update
+            &lt;/button&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    at /home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/sample.test.js:57:32
+    at runWithExpensiveErrorDiagnosticsDisabled (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/config.js:47:12)
+    at checkCallback (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/wait-for.js:127:77)
+    at checkRealTimersCallback (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/wait-for.js:121:16)
+    at Timeout.task [as _onTimeout] (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)</failure>
+    </testcase>
+    <testcase classname="TodoList" name="allows the user to delete a task" time="1.012">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: 1
+
+Number of calls: 0
+
+Ignored nodes: comments, script, style
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+      &lt;div
+        style=&quot;padding: 20px; border: 1px solid #ccc; border-radius: 5px; max-width: 400px; margin: auto;&quot;
+      &gt;
+        &lt;h1
+          style=&quot;text-align: center;&quot;
+        &gt;
+          ToDo List
+        &lt;/h1&gt;
+        &lt;ul
+          style=&quot;list-style: none; padding: 0px;&quot;
+        &gt;
+          &lt;li
+            style=&quot;margin-bottom: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 3px; display: flex; justify-content: space-between; align-items: center;&quot;
+          &gt;
+            &lt;span
+              style=&quot;flex: 1;&quot;
+            &gt;
+              Test Task 1
+               - 
+              Pending
+            &lt;/span&gt;
+            &lt;div&gt;
+              &lt;button
+                style=&quot;background: rgb(33, 150, 243); color: rgb(255, 255, 255); padding: 8px; border-radius: 3px; margin-right: 5px; cursor: pointer;&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                style=&quot;background: rgb(76, 175, 80); color: rgb(255, 255, 255); padding: 8px; border-radius: 3px; cursor: pointer;&quot;
+              &gt;
+                Complete
+              &lt;/button&gt;
+              &lt;button
+                style=&quot;background: rgb(244, 67, 54); color: rgb(255, 255, 255); padding: 8px; border-radius: 3px; cursor: pointer;&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    at /home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/sample.test.js:91:32
+    at runWithExpensiveErrorDiagnosticsDisabled (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/config.js:47:12)
+    at checkCallback (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/wait-for.js:127:77)
+    at checkRealTimersCallback (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/wait-for.js:121:16)
+    at Timeout.task [as _onTimeout] (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)</failure>
+    </testcase>
+    <testcase classname="TodoList" name="completes a task" time="1.01">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: {&quot;description&quot;: &quot;Test Task 1&quot;, &quot;id&quot;: 1, &quot;isCompleted&quot;: true}
+
+Number of calls: 0
+
+Ignored nodes: comments, script, style
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+      &lt;div
+        style=&quot;padding: 20px; border: 1px solid #ccc; border-radius: 5px; max-width: 400px; margin: auto;&quot;
+      &gt;
+        &lt;h1
+          style=&quot;text-align: center;&quot;
+        &gt;
+          ToDo List
+        &lt;/h1&gt;
+        &lt;ul
+          style=&quot;list-style: none; padding: 0px;&quot;
+        &gt;
+          &lt;li
+            style=&quot;margin-bottom: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 3px; display: flex; justify-content: space-between; align-items: center;&quot;
+          &gt;
+            &lt;span
+              style=&quot;flex: 1;&quot;
+            &gt;
+              Test Task 1
+               - 
+              Pending
+            &lt;/span&gt;
+            &lt;div&gt;
+              &lt;button
+                style=&quot;background: rgb(33, 150, 243); color: rgb(255, 255, 255); padding: 8px; border-radius: 3px; margin-right: 5px; cursor: pointer;&quot;
+              &gt;
+                Edit
+              &lt;/button&gt;
+              &lt;button
+                style=&quot;background: rgb(76, 175, 80); color: rgb(255, 255, 255); padding: 8px; border-radius: 3px; cursor: pointer;&quot;
+              &gt;
+                Complete
+              &lt;/button&gt;
+              &lt;button
+                style=&quot;background: rgb(244, 67, 54); color: rgb(255, 255, 255); padding: 8px; border-radius: 3px; cursor: pointer;&quot;
+              &gt;
+                Delete
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    at /home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/sample.test.js:120:32
+    at runWithExpensiveErrorDiagnosticsDisabled (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/config.js:47:12)
+    at checkCallback (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/wait-for.js:127:77)
+    at checkRealTimersCallback (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/@testing-library/dom/dist/wait-for.js:121:16)
+    at Timeout.task [as _onTimeout] (/home/hackerearth/Downloads/taskmanagerrect.net/CRUDApp/todo.ent/frontend/node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
